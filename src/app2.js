@@ -57,7 +57,7 @@ app.get('/help', (req, res) => {
     //Renders the index.hbs file from the views folder....
     res.render('help', {
         title: 'HELP',
-        helpText: 'Helpfule text goes here',
+        helpText: 'Helpfull text goes here',
         name: 'Eric Kasten',
         todayDate: ts.toLocaleDateString(),
         todayTime: ts.toLocaleTimeString()
